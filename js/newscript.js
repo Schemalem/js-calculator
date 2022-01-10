@@ -12,13 +12,12 @@ class Calculator {
   }
 
   delete() {
-    // const updatedOperand = this.currentOperand.toString()
-    // this.currentOperand = updatedOperand.slice(0, -1)
+    const updatedOperand = this.currentOperand.toString()
+    this.currentOperand = updatedOperand.slice(0, -1)
   }
 
   appendNumber(number) {
-    // this.currentOperand = number
-    if (this.currentOperand.includes('.')) return
+    if (number === '.' && this.currentOperand.includes('.')) return
     this.currentOperand = this.currentOperand.toString() + number.toString()
   }
 
