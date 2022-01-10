@@ -78,8 +78,8 @@ body {
   flex-direction: column;
   padding: 10px;
   outline: groove;
-  /* word-wrap: break-word;
-  word-break: break-all; */
+  /* word-wrap: break-word; */
+  word-break: break-all;
 }
 
 .output .previous-operand{
