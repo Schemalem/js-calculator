@@ -12,6 +12,8 @@ class Calculator {
   }
 
   delete() {
+    // const updatedOperand = this.currentOperand.toString()
+    // this.currentOperand = updatedOperand.slice(0, -1)
   }
 
   appendNumber(number) {
