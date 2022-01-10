@@ -4,17 +4,18 @@
     <title>Javascript Calculator</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <div class="container">
-    <div class="header">
-      <h1> Javascript Calculator</h1>
-    </div>
+      <!-- Header -->
+      <div class="header">
+        <h1> Javascript Calculator</h1>
+      </div>
+      <!-- Calculator Grid -->
       <div class="calculator-grid">
-        <!-- <input type="text" class="calculator-screen" value="" disabled /> -->
         <div class="output">
           <div data-previous-operand class="previous-operand"></div>
           <div data-current-operand class="current-operand" value=""></div>
-            <!-- <input type="text" class="current-operand" value="" disabled /> -->
         </div>
         <button data-all-clear class="span-two bye">AC</button>
         <button data-delete class="bye">DEL</button>
@@ -35,12 +36,12 @@
         <button data-number>0</button>
         <button data-equals class="span-two">=</button>
       </div>
-
+      <!-- Footer -->
       <div class="footer">
         <p>Thanks for stopping by! | Created by Nicole Schembri </p>
       </div>
-
     </div>
+    <!-- JS -->
     <script src="js/newscript.js"></script>
-    </body>
-    </html>
+  </body>
+</html>
